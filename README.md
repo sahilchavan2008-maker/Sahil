@@ -122,3 +122,4 @@ Copy the contents of `server/supabase/schema.sql` into the Supabase SQL Editor:
 | `PUT` | `/api/planner/themes` | Update anchor schedule themes |
 | `PATCH` | `/api/planner/complete/:id` | Toggle completion status of weekly plan |
 | `POST` | `/api/ai/generate-meal` | Gemini AI structured recipe generator |
+"# new" 
