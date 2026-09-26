@@ -1,6 +1,6 @@
 import { supabase, isDemoMode } from './supabase';
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api';
 
 async function getAuthHeader() {
   if (isDemoMode) {
